@@ -1,0 +1,6 @@
+# CCB Plugin Configuration
+# 自定义玩家被背后潜行击败的死亡信息
+# 可用变量:
+# %attacker% - 攻击者的名字
+# %victim% - 受害者的名字
+death-message: "%victim% 被 %attacker% cc死了❤️"

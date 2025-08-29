@@ -1,0 +1,16 @@
+name: CCB
+version: 1.0.0
+main: com.example.ccb.CCBPlugin
+api-version: '1.21'
+description: Adds special sneak mechanics to damage entities and players
+authors: [Your Name]
+commands:
+  ccbreload:
+    description: Reloads the CCB plugin
+    usage: /<command>
+    permission: ccb.reload
+    permission-message: You don't have permission to reload CCB!
+permissions:
+  ccb.reload:
+    description: Allows reloading the CCB plugin
+    default: op
